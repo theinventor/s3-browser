@@ -4,7 +4,11 @@ h3. This rails application can be used to browse, add, delete and edit both buck
 
 p. Install instructions:
 
-* 1. Edit the file: config/s3_config.yml
+* 1. rake db:create && rake db:migrate
 * 2. mkdir -p log tmp
+* 3. It uses Devise, so create a user
 
+
+:TODO
+* 1. fix profile with s3 info so it's one per user
 
