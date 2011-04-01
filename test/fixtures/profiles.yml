@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  s3_key: MyString
+  s3_secret: MyString
+  user: 
+
+two:
+  s3_key: MyString
+  s3_secret: MyString
+  user: 

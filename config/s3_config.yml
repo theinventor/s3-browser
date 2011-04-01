@@ -1,0 +1,4 @@
+#aws_access_key: "NOLONGERUSED"
+#aws_secret_access_key: "somebigsecret-NOTuSEDnoW+"
+#use_ssl: false
+#default_bucket: "TroyBackups"

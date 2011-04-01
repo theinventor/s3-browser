@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>S3 key:</b>
+  <%= @profile.s3_key %>
+</p>
+
+<p>
+  <b>S3 secret:</b>
+  <%= @profile.s3_secret %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @profile.user %>
+</p>
+
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>

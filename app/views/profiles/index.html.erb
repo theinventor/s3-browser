@@ -1,0 +1,23 @@
+<h1>Listing profiles</h1>
+
+<table align=center>
+  <tr>
+    <th>S3 key</th>
+    <th>S3 secret</th>
+    <th></th>
+
+  </tr>
+
+
+  <tr>
+    <td><%= @profile.s3_key %></td>
+    <td><%= @profile.s3_secret %></td>
+
+    <td><%= link_to 'Edit', edit_profile_path(@profile.id) %></td>
+
+  </tr>
+
+</table>
+
+<br />
+

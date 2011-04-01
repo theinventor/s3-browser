@@ -1,0 +1,11 @@
+<h1>Editing profile</h1>
+
+ <%= simple_form_for @profile do |f| %>
+    <%= f.input :s3_key %>
+    <%= f.input :s3_secret %>
+    <%= f.association :user %>
+    <%= f.button :submit %>
+  <% end %>
+
+<%= link_to 'Show', @profile %> |
+<%= link_to 'Back', profiles_path %>
